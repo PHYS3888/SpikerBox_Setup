@@ -64,17 +64,3 @@ _Do you know why filtering out 50Hz oscillations from our signal might be useful
 ### Using the _SpikerBox_ with _BYB Spike Recorder_
 
 The battery drains easily---please don't forget to switch off the unit when you're done.
-
-## Measuring Streaming Data From _Python_ or _Matlab_
-
-### Matlab
-
-Make sure you install the _Signal Processing & Communications_ and _Curve Fitting_ Toolboxes.
-
-### Python
-
-Make sure you install the `pyserial` package, which allows you to read from the input communications (COM) port.
-For example, using the `pip` package manager:
-```
-pip install pyserial
-```
